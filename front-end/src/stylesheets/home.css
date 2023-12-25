@@ -1,0 +1,26 @@
+.section1 {
+    height: 100vh;
+    background-image: url("https://onconext.it/wp-content/uploads/2017/01/prima-slider-onconext-e1485430252945.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1 {
+    width: 35vw;
+    position: absolute;
+    right: 5vw;
+    top: 40vh;
+}
+
+@media (max-width: 1100px) {
+    .para1 {
+        width: 40vw;
+        position: absolute;
+        left: 5vw;
+        top: 45vh;
+    }
+}
+
+.para2 {
+    padding-top: 30px;
+}
